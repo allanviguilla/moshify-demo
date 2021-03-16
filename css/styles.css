@@ -1,4 +1,5 @@
 /*CUSTOM PROPERTIES*/
+/*-----------------*/
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
@@ -8,6 +9,7 @@
 }
 
 /*TYPOGRAPHY*/
+/*----------*/
 html{
     /*Hack:: 62.5% of 16px = 10px*/
     font-size: 62.5%;
@@ -58,6 +60,7 @@ p{
 }
 
 /*LINKS*/
+/*-----*/
 a{
     text-decoration: none;
 }
@@ -83,5 +86,39 @@ a{
 @media screen and (min-width: 1024px){
     .link-arrow{
         font-size: 1.5rem;
+    }
+}
+
+/*BADGES*/
+/*-----*/
+.badge{
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: .5rem 2rem;
+    white-space: nowrap;
+}
+
+/*BEM Block Element Modifer naming convention*/
+.badge--primary{
+    background: var(--color-primary);
+    color: white;
+}
+
+.badge--secondary{
+    background: var(--color-secondary);
+    color: white;
+}
+
+.badge--small{
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px){
+    .badge{
+        font-size: 1.5rem;
+    }
+    .badge-small{
+        font-size: 1.2rem;
     }
 }
