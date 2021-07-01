@@ -1,5 +1,5 @@
-## moshify-demo
+## Code With Mosh - Moshify Demo
 
-course project for code with mosh css and html course part 3:
+Course project for Code With Mosh CSS and HTML course part 3:
 
-focus on breaking down site into components and styling them with clean CSS using BEM naming convention. 
+Focus on breaking down site into components and styling them with clean CSS using BEM naming convention. 
